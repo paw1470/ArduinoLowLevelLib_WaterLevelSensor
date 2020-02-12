@@ -2,7 +2,7 @@
 #include "WaterLevelSensor2PinPB.h"
 
 WaterLevelSensor2PinPB::WaterLevelSensor2PinPB(){
-    waterLevel = WaterLevelEnum::WATER_ERROR;
+    waterLevel = WaterLevelEnum::WATER_LEVEL_ERROR;
 }
 
 void WaterLevelSensor2PinPB::init(uint8_t lowWaterLevelPin, uint8_t highWaterLevelPin, bool useInternalPullUpRes){
