@@ -28,7 +28,7 @@ void WaterLevelSensor2PinPB::updateWaterLevel(){
     } else if(isWaterLevelFull(waterSensorLow, waterSensorHigh)){
         waterLevel = WaterLevelEnum::WATER_LEVEL_FULL;
     } else{
-        waterLevel = WaterLevelEnum::WATER_ERROR;
+        waterLevel = WaterLevelEnum::WATER_LEVEL_ERROR;
     }
 }
 
