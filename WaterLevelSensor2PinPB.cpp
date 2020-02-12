@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "WaterLevelSensor2PinPB.h"
 
-WaterLevelSensor2PinPB::WaterLevelSensorPB(){
+WaterLevelSensor2PinPB::WaterLevelSensor2PinPB(){
     waterLevel = WaterLevelEnum::WATER_ERROR;
 }
 
