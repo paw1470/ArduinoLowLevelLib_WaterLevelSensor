@@ -21,10 +21,11 @@ void setup(){
 
 void loop(){
    setLed();
+   delay(50);
 }
 
 void setLed(){
-     switch (waterLevelSensor.getWaterLevel()){
+    switch (waterLevelSensor.getWaterLevel()){
     case WATER_LEVEL_EMPTY:
         digitalWrite(LEVEL_EMPTY_PIN, HIGH);
         digitalWrite(LEVEL_MEDIUM_PIN, LOW);
